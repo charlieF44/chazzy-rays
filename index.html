@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
+<script src="/assets/jquery.js"></script>
+<link href="http://fonts.googleapis.com/css?family=Londrina+Shadow" rel="stylesheet" type="text/css"
 
 <style>
     body {
@@ -95,6 +96,12 @@ small {
 <small>Tito's Vodka, Cruzan Coconut Rum, Fresh Pineapple juice, splash of cranberry juice, topped with spritz of club soda and fresh fruit</small></p>
 
 </div>
+
+<script>
+    $('div').on('click', function() {
+        $(this).toggleClass('show-description');
+        });
+</script>
 
 
 
